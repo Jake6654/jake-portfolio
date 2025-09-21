@@ -39,7 +39,7 @@ const HeroContent = () => {
               {" "}
               the best{" "}
             </span>
-            project expreience
+            project experience
           </span>
         </motion.div>
         <motion.p
@@ -47,8 +47,8 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Hi I&apos;m Jae-Hyuk! I&apos;m a Full Stack Software Engineer with a
-          strong interest in cloud computing and reponsive web design. Check out
-          my projects and skills.
+          strong interest in cloud computing and responsive web design. Check
+          out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
