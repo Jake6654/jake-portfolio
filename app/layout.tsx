@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Providing the best project experience",
     images: [
       {
-        url: "/SpaceWebsite.png", // ✅ /public/preview.png
+        url: "/image1.png", // ✅ /public/preview.png
         width: 1200,
         height: 630,
         alt: "Jake's Portfolio Preview",
