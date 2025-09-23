@@ -11,7 +11,6 @@ const Projects = () => {
         My Projects
       </h1>
 
-      {/* 동일 높이 보장: grid + items-stretch */}
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10 items-stretch">
         <ProjectCard
           src="/TravelLog.png"
@@ -20,10 +19,10 @@ const Projects = () => {
           description="Travel recommendation website that lets users track trips and discover destinations powered by AI suggestions."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Test1"
-          href="https://devpost.com/software/travel-log-7yckum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/emotional.png"
+          title="Emotional Diary"
+          href="https://emotion-diary-pied-five.vercel.app/"
+          description="This is my first Next.js project. It’s a simple webpage built using basic React features such as useState and useMemo."
         />
         <ProjectCard
           src="/SpaceWebsite.png"

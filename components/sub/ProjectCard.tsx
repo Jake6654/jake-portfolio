@@ -36,7 +36,7 @@ const ProjectCard = ({ src, title, description, href }: Props) => {
       {/* 콘텐츠 */}
       <div className="relative p-4 transition-transform duration-300 ease-out group-hover:-translate-y-0.5">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300 line-clamp-3">{description}</p>
+        <p className="mt-2 text-gray-300 line-clamp-4">{description}</p>
       </div>
     </a>
   );
