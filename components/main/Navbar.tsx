@@ -31,7 +31,13 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <a key={social.name} href={social.href}>
+            <a
+            // by using target attribute, the link will open in a new tab when clicked 
+              key={social.name}
+              href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src={social.src}
                 alt={social.name}

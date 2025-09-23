@@ -5,11 +5,15 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  href: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, title, description, href }: Props) => {
   return (
-    <div
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className="
         group relative z-10 cursor-pointer
         overflow-hidden rounded-lg border border-[#2A0E61] shadow-lg
@@ -23,7 +27,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
           src={src}
           alt={title}
           width={1000}
-          height={1000}
+          height={700}
           className="
             w-full object-contain
             transition-transform duration-300 ease-out
@@ -36,7 +40,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
-    </div>
+    </a>
   );
 };
 
