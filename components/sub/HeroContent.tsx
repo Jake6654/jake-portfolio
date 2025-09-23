@@ -46,9 +46,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Hi I&apos;m Jae-Hyuk! I&apos;m a Full Stack Software Engineer with a
-          strong interest in cloud computing and responsive web design. Check
-          out my projects and skills.
+          Hi, I&apos;m Jae-Hyuk! I&apos;m a Full Stack Software Engineer with a
+          strong interest in cloud computing as well as responsive web design.
+          Feel free to check out my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
