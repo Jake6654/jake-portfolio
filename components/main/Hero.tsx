@@ -3,7 +3,7 @@ import HeroContent from "../sub/HeroContent";
 const Hero = () => {
   return (
     // 부모의 height 을 명시적으로 보여줘야지 자식도 부모의 높이를 따라감 otherwise, h = 0px
-    <div className="relative flex flex-col h-full w-full">
+    <section id="about-me" className="relative flex flex-col h-full w-full">
       {" "}
       <video
         autoPlay
@@ -15,7 +15,7 @@ const Hero = () => {
         <source src="/blackhole.webm" type="video/webm" />{" "}
       </video>{" "}
       <HeroContent />
-    </div>
+    </section>
   );
 };
 export default Hero;

@@ -81,16 +81,19 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "instagram",
+    href: "https://www.instagram.com/jjh.1223/",
     src: "/instagram.svg",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "github",
+    href: "https://github.com/Jake6654",
+    src: "/github.svg.png",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/jae-hyuk-chang-953724321/",
+    src: "/linkedin-svgrepo-com.svg",
   },
 ];
 
