@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jake's Portfolio",
     description: "Providing the best project experience",
-    images: ["/SpaceWebsite.png"],
+    images: ["/image1.png"],
   },
   alternates: {
     canonical: "/",
