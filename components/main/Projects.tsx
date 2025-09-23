@@ -10,12 +10,14 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+
+      {/* 동일 높이 보장: grid + items-stretch */}
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10 items-stretch">
         <ProjectCard
           src="/TravelLog.png"
           title="Travel log"
           href="https://devpost.com/software/travel-log-7yckum"
-          description="travel recommendation website that allows users to track and find new travel destinations based on Ai suggestions"
+          description="Travel recommendation website that lets users track trips and discover destinations powered by AI suggestions."
         />
         <ProjectCard
           src="/CardImage.png"
@@ -25,9 +27,9 @@ const Projects = () => {
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Test2"
-          href="https://devpost.com/software/travel-log-7yckum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Jake's Portfolio"
+          href="https://jake-portfolio-one.vercel.app/"
+          description="A frontend-focused portfolio using Three.js and Framer Motion to deliver interactive 3D visuals and smooth animations."
         />
       </div>
     </section>
