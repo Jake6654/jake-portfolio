@@ -31,6 +31,24 @@ const Projects = () => {
           href="https://jake-portfolio-one.vercel.app/"
           description="A frontend-focused portfolio using Three.js and Framer Motion to deliver interactive 3D visuals and smooth animations."
         />
+        <ProjectCard
+          src="/CardImage.png"
+          title="Test2"
+          href="https://devpost.com/software/travel-log-7yckum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <ProjectCard
+          src="/CardImage.png"
+          title="Test3"
+          href="https://devpost.com/software/travel-log-7yckum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <ProjectCard
+          src="/CardImage.png"
+          title="Test4"
+          href="https://devpost.com/software/travel-log-7yckum"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
       </div>
     </section>
   );
