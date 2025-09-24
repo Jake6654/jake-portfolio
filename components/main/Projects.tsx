@@ -31,10 +31,10 @@ const Projects = () => {
           description="A frontend-focused portfolio using Three.js and Framer Motion to deliver interactive 3D visuals and smooth animations."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Test2"
-          href="https://devpost.com/software/travel-log-7yckum"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/creativeCoding.png"
+          title="Creative Coding Lab"
+          href="https://reponsive-web-r3f.vercel.app/"
+          description="An interactive 3D website built with React Three Fiber that blends real-time physics and cinematic camera work for a dynamic, immersive experience."
         />
         <ProjectCard
           src="/CardImage.png"
